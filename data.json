@@ -1,0 +1,85 @@
+[
+  {
+    "name": "Thimphu",
+    "population": 138736,
+    "forest_cover_pct": 43.8,
+    "cultural_sites": [
+      {
+        "site_name": "Tashichho Dzong",
+        "category": "Dzong",
+        "year_established": 1216
+      },
+      {
+        "site_name": "Simtokha Dzong",
+        "category": "Dzong",
+        "year_established": 1629
+      },
+      {
+        "site_name": "Cheri Monastery",
+        "category": "Monastery",
+        "year_established": 1620
+      }
+    ]
+  },
+  {
+    "name": "Paro",
+    "population": 46316,
+    "forest_cover_pct": 62.5,
+    "cultural_sites": [
+      {
+        "site_name": "Rinpung Dzong",
+        "category": "Dzong",
+        "year_established": 1644
+      },
+      {
+        "site_name": "Taktsang Lhakhang",
+        "category": "Monastery",
+        "year_established": 1692
+      },
+      {
+        "site_name": "Kyichu Lhakhang",
+        "category": "Temple",
+        "year_established": 659
+      }
+    ]
+  },
+  {
+    "name": "Punakha",
+    "population": 28740,
+    "forest_cover_pct": 83.4,
+    "cultural_sites": [
+      {
+        "site_name": "Punakha Dzong",
+        "category": "Dzong",
+        "year_established": 1637
+      },
+      {
+        "site_name": "Chimi Lhakhang",
+        "category": "Temple",
+        "year_established": 1499
+      }
+    ]
+  },
+  {
+    "name": "Bumthang",
+    "population": 17820,
+    "forest_cover_pct": 66.7,
+    "cultural_sites": [
+      {
+        "site_name": "Jakar Dzong",
+        "category": "Dzong",
+        "year_established": 1549
+      },
+      {
+        "site_name": "Kurjey Lhakhang",
+        "category": "Temple",
+        "year_established": 1652
+      },
+      {
+        "site_name": "Tamshing Lhakhang",
+        "category": "Temple",
+        "year_established": 1501
+      }
+    ]
+  }
+]
