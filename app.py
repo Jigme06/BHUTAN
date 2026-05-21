@@ -1,11 +1,11 @@
 import streamlit as st
 from engine import KnowledgeEngine
-st.title("🇧🇹 Knowledge Engine: Bhutan")
-st.write("Kuzuzangpo La! Welcome to the Digital Interactive Repository of Bhutanese Administrative and Cultural Sites.")
+import base64
+st.title("The HEART OF BHUTAN 🇧🇹")
+st.write("Kuzuzangpo La! Welcome to the Digital Interactive Repository of Bhutanese Cultural Sites.")
 
 engine = KnowledgeEngine("data.json")
 engine.load_data()
-
 
 with open('about.md',"r", encoding="utf-8") as f:
     about_content = f.read()
@@ -14,21 +14,16 @@ with st.expander(" ABOUT DRUKYUL 🇧🇹"):
     st.image("img1.jpg", use_container_width=True)
     st.markdown(about_content)
 
-search_option = st.selectbox(
-    "What type of site are you looking for today?",
-    ["-- Select Category --", "Dzongs", "Monasteries and Other Neys"]
-)
+site_names = [site.name for site in engine.sites]
+selected_site = st.selectbox("Select a cultural site to learn more:", ["-- Select a Site --"] + site_names)
 
-if search_option == "Dzongs":
-    results = engine.find_sites_by_type("Dzong")
+if selected_site != "-- Select a Site --":
+    site_obj = next(s for s in engine.sites if s.name == selected_site)
     
-    st.subheader("Found Dzongs")
-    for site in results:
-        st.write(f"🏰 **{site.name}** — Located in *{site.loc}*")
+    st.subheader(f"📍 {site_obj.name}")
+    st.write(f"**Location:** {site_obj.loc}")
+    st.write(f"**Founded:** {site_obj.year}")
+    
 
-elif search_option == "Monasteries and Other Neys":
-    results = engine.find_sites_by_type("Monastery")
-    
-    st.subheader("Found Monasteries & Sacred Neys")
-    for site in results:
-        st.write(f"🛕 **{site.name}** — Located in *{site.loc}*")
+st.divider()
+st.write("Explore Bhutan's heritage one site at a time.")

@@ -1,9 +1,8 @@
 class CulturalSite:
 
-    def __init__(self,name:str,site_type:str,founded_year: int,location_dzongkhag: str):
+    def __init__(self,name:str,founded_year: int,location_dzongkhag: str):
 
         self.name =  name
-        self.type = site_type
         self.year = founded_year
         self.loc = location_dzongkhag
 
