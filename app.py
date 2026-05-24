@@ -24,7 +24,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.title("THE KINGDOM OF BHUTAN 🇧🇹")
+st.title('འབྲུག། : THE KINGDOM OF BHUTAN 🇧🇹')
 
 st.write("Kuzuzangpo La! Welcome to the Digital Interactive Repository of Bhutan")
 
