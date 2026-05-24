@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Zhabdrung Ngawang Namgyal",
+        "title": "Unifier of Bhutan",
+        "century": "17th Century",
+        "wiki_search_term": "Ngawang Namgyal"
+    },
+    {
+        "name": "Ugyen Wangchuck",
+        "title": "First King of Bhutan",
+        "century": "20th Century (Early)",
+        "wiki_search_term": "Ugyen Wangchuck"
+    },
+    {
+        "name": "Jigme Wangchuck",
+        "title": "Second King of Bhutan",
+        "century": "20th Century (Mid)",
+        "wiki_search_term": "Jigme Wangchuck"
+    },
+    {
+        "name": "Jigme Dorji Wangchuck",
+        "title": "Father of Modern Bhutan",
+        "century": "20th Century (Mid)",
+        "wiki_search_term": "Jigme Dorji Wangchuck"
+    },
+    {
+        "name": "Jigme Singye Wangchuck",
+        "title": "Fourth King of Bhutan (Father of Gross National Happiness)",
+        "century": "20th - 21st Century",
+        "wiki_search_term": "Jigme Singye Wangchuck"
+    },
+    {
+        "name": "Jigme Khesar Namgyel Wangchuck",
+        "title": "Fifth King of Bhutan (Current Reigning Monarch)",
+        "century": "21st Century",
+        "wiki_search_term": "Jigme Khesar Namgyel Wangchuck"
+    },
+    {
+        "name": "Padmasambhava",
+        "title": "Guru Rinpoche",
+        "century": "8th Century",
+        "wiki_search_term": "Padmasambhava"
+    },
+    {
+        "name": "Pema Lingpa",
+        "title": "Great Terton (Treasure Revealer)",
+        "century": "15th - 16th Century",
+        "wiki_search_term": "Pema Lingpa"
+    }
+]

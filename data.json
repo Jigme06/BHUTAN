@@ -1,52 +1,12 @@
 [
-  {
-    "name": "Taktshang",
-    "location": "Paro",
-    "build_date": "1692–1694"
-  },
-  {
-    "name": "Baylangdra",
-    "location": "Wangdue Phodrang",
-    "build_date": "12th Century"
-  },
-  {
-    "name": "Singye Dzong",
-    "location": "Lhuentse",
-    "build_date": "1554"
-  },
-  {
-    "name": "Gangtey",
-    "location": "Wangdue Phodrang",
-    "build_date": "1613"
-  },
-  {
-    "name": "Tamzhing",
-    "location": "Bumthang",
-    "build_date": "1501"
-  },
-  {
-    "name": "Kurjey",
-    "location": "Bumthang",
-    "build_date": "1652"
-  },
-  {
-    "name": "Rangjung",
-    "location": "Trashigang",
-    "build_date": "1989"
-  },
-  {
-    "name": "Chorten Kora",
-    "location": "Trashiyangtse",
-    "build_date": "c. 1740"
-  },
-  {
-    "name": "Punakha Dzong",
-    "location": "Punakha",
-    "build_date": "1637–1638"
-  },
-  {
-    "name": "Mebar Tsho",
-    "location": "Bumthang",
-    "build_date": "12th Century"
-  }
+  {"name": "Paro Taktsang", "location": "Paro", "build_date": "1692–1694"},
+  {"name": "Baylangdra", "location": "Wangdue Phodrang", "build_date": "12th Century"},
+  {"name": "Singye Dzong", "location": "Lhuentse", "build_date": "1554"},
+  {"name": "Gangtey Monastery", "location": "Wangdue Phodrang", "build_date": "1613"},
+  {"name": "Tamshing Lhakhang", "location": "Bumthang", "build_date": "1501"},
+  {"name": "Kurjey Lhakhang", "location": "Bumthang", "build_date": "1652"},
+  {"name": "Rangjung Woesel Choeling Monastery", "location": "Trashigang", "build_date": "1989"},
+  {"name": "Chorten Kora", "location": "Trashiyangtse", "build_date": "c. 1740"},
+  {"name": "Punakha Dzong", "location": "Punakha", "build_date": "1637–1638"},
+  {"name": "Mebar Tsho", "location": "Bumthang", "build_date": "12th Century"}
 ]

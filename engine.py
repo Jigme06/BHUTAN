@@ -23,6 +23,35 @@ class KnowledgeEngine:
                 else:
                     print(f'Warning: Skipping incomplete item {item}')
 
+    def fetch_wikipedia_summary(self, site_name: str):
+        headers = {
+            'User-Agent': 'BhutanCulturalEngine/1.0 (contact: yourname@email.com)'
+        }
+        
+        # 1. Search Wikipedia with headers
+        search_url = f"https://en.wikipedia.org/w/api.php?action=opensearch&search={site_name}&limit=1&format=json&origin=*"
+        
+        try:
+            search_response = requests.get(search_url, headers=headers, timeout=10)
+            search_data = search_response.json()
+            
+            if len(search_data) > 1 and len(search_data[1]) > 0:
+                official_title = search_data[1][0]
+                
+                # 2. Get the Summary with headers
+                summary_url = f"https://en.wikipedia.org/api/rest_v1/page/summary/{official_title.replace(' ', '_')}"
+                summary_response = requests.get(summary_url, headers=headers, timeout=10)
+                
+                if summary_response.status_code == 200:
+                    return summary_response.json().get('extract', 'No description found.')
+                else:
+                    return f"Summary error: Received status {summary_response.status_code}"
+            else:
+                return "No matching page found on Wikipedia."
+            
+        except Exception as e:
+            return f"Error connecting to Wikipedia: {str(e)}"
+
     
 
 
