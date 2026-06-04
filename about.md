@@ -1,5 +1,5 @@
             THE KINGDOM OF BHUTAN 🇧🇹
-      ---The Land of the Thunder Dragon---
+
 High within the jagged, cloud-piercing embrace of the Eastern Himalayas lies Drukyul—the Land of the Thunder Dragon. For centuries, this kingdom remained hidden from the maps of the world, a secluded realm where the veil between the human and the divine is whispered to be thin. It is a place where history is not merely recorded in books, but etched into the very cliffs and carved into the prayers that flutter on the wind.
 
 ✧ THE MYTHICAL ORIGIN

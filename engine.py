@@ -28,7 +28,6 @@ class KnowledgeEngine:
             'User-Agent': 'BhutanCulturalEngine/1.0 (contact: yourname@email.com)'
         }
         
-        # 1. Search Wikipedia with headers
         search_url = f"https://en.wikipedia.org/w/api.php?action=opensearch&search={site_name}&limit=1&format=json&origin=*"
         
         try:
