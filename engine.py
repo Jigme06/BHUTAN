@@ -1,6 +1,7 @@
 import json
 from BHUTAN import CulturalSite
 import requests
+import base64
 
 class KnowledgeEngine:
     def __init__(self,file_path : str):
@@ -25,7 +26,7 @@ class KnowledgeEngine:
 
     def fetch_wikipedia_summary(self, site_name: str):
         headers = {
-            'User-Agent': 'BhutanCulturalEngine/1.0 (contact: yourname@email.com)'
+            'User-Agent': 'BhutanCulturalEngine/1.0'
         }
         
         search_url = f"https://en.wikipedia.org/w/api.php?action=opensearch&search={site_name}&limit=1&format=json&origin=*"
@@ -37,7 +38,6 @@ class KnowledgeEngine:
             if len(search_data) > 1 and len(search_data[1]) > 0:
                 official_title = search_data[1][0]
                 
-                # 2. Get the Summary with headers
                 summary_url = f"https://en.wikipedia.org/api/rest_v1/page/summary/{official_title.replace(' ', '_')}"
                 summary_response = requests.get(summary_url, headers=headers, timeout=10)
                 
@@ -51,6 +51,21 @@ class KnowledgeEngine:
         except Exception as e:
             return f"Error connecting to Wikipedia: {str(e)}"
 
+    def get_stats(self,indicator):
+        url = f"https://api.worldbank.org/v2/country/BT/indicator/{indicator}?format=json&per_page=5"
+        try:
+            response = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'}, timeout=10)
+            data = response.json()
+            
+            if len(data) > 1 and data[1]:
+                for entry in data[1]:
+                    if entry.get('value') is not None:
+                        return entry['value'], entry['date']
+            
+            return None, "No Data Found"
+            
+        except Exception as e:
+            return None, str(e)
     
 
 

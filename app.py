@@ -29,6 +29,24 @@ st.write("Kuzuzangpo La! Welcome to the Digital Interactive Repository of Bhutan
 engine = KnowledgeEngine("data.json")
 engine.load_data()
 
+st.title('AT A GLANCE:')
+pop_val, pop_year = engine.get_stats("SP.POP.TOTL")
+gdp_val, gdp_year = engine.get_stats("NY.GDP.MKTP.CD")
+
+col1, col2 = st.columns(2)
+
+with col1:
+    if pop_val:
+        st.metric(label=f"Population ({pop_year})", value=f"{pop_val:,}")
+    else:
+        st.error("Could not fetch population data.")
+
+with col2:
+    if gdp_val:
+        st.metric(label=f"GDP (USD) ({gdp_year})", value=f"${gdp_val / 1e9:.2f} Billion")
+    else:
+        st.error("Could not fetch GDP data.")
+
 with open('about.md',"r", encoding="utf-8") as f:
     about_content = f.read()
 
@@ -37,6 +55,7 @@ with st.expander(" ABOUT DRUKYUL 🇧🇹"):
     st.markdown(about_content)
 
 st.title("The HEART OF BHUTAN")
+st.write('Explore culturally resonant sites which have braced the test of time.')
 site_names = [site.name for site in engine.sites]
 selected_site = st.selectbox("Select a cultural site to learn more:", ["-- Select a Site --"] + site_names)
 
@@ -64,6 +83,7 @@ if selected_site != "-- Select a Site --":
 st.divider()
 
 st.title('THE HEARTBEATS OF BHUTAN')
+st.write('Explore some of Bhutanese Histories most influential figures.')
 
 with open("p_data.json","r") as f:
     personalities_data = json.load(f)
