@@ -8,7 +8,7 @@ def get_base64(bin_file):
         data = f.read()
     return base64.b64encode(data).decode()
 
-bin_str = get_base64("bg2.jpg")
+bin_str = get_base64("img1.jpg")
 
 st.markdown(
     f"""
@@ -33,7 +33,7 @@ with open('about.md',"r", encoding="utf-8") as f:
     about_content = f.read()
 
 with st.expander(" ABOUT DRUKYUL 🇧🇹"):
-    st.image("img1.jpg", use_container_width=True)
+    st.image("img2.jpg", use_container_width=True)
     st.markdown(about_content)
 
 st.title("The HEART OF BHUTAN")
