@@ -2,6 +2,10 @@ import json
 from BHUTAN import CulturalSite
 import requests
 import base64
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 class KnowledgeEngine:
     def __init__(self,file_path : str):
@@ -66,7 +70,28 @@ class KnowledgeEngine:
             
         except Exception as e:
             return None, str(e)
-    
+        
+    def get_coordinates(self,loc:str):
+        if loc == "Singye Dzong":
+            return (27.9724, 91.2991)
+        elif loc == "Membartsho":
+            return (27.5403, 90.8128)
+        else:
+            api_key = os.getenv("GEO_API_KEY")
+
+            url = f"https://api.geoapify.com/v1/geocode/search?text={loc},+Bhutan&apiKey={api_key}"
+
+            response = requests.get(url)
+            data = response.json()
+
+            result = data['features'][0]
+            coords = result['geometry']['coordinates']
+            return (coords[1],coords[0])
+
+
+
+
+
 
 
 

@@ -2,6 +2,7 @@ import streamlit as st
 from engine import KnowledgeEngine
 import json
 import base64
+import pandas as pd
 
 def get_base64(bin_file):
     with open(bin_file,'rb') as f:
@@ -54,6 +55,24 @@ with st.expander(" ABOUT DRUKYUL 🇧🇹"):
     st.image("img2.jpg", use_container_width=True)
     st.markdown(about_content)
 
+st.divider()
+
+st.subheader("THE DRUK GYALPOS")
+st.write("Learn more about the Godly Kings of the Mystic Land!")
+
+st.markdown("""
+    <style>
+    div.stButton > button {
+        background-color: #FFC300 !important;
+        color: black !important; 
+        border: none !important;
+    }
+    </style>
+""", unsafe_allow_html=True)
+
+if st.button("EXPLORE", type="primary"):
+    st.switch_page("pages/01_Royals.py")
+   
 st.title("The HEART OF BHUTAN")
 st.write('Explore culturally resonant sites which have braced the test of time.')
 site_names = [site.name for site in engine.sites]
@@ -80,6 +99,16 @@ if selected_site != "-- Select a Site --":
                     </<div>
                     """,unsafe_allow_html= True)
     
+    if st.button('Show on map'):
+        with st.spinner("THANK YOU FOR YOUR PATIENCE"):
+            try:
+                lat,lon = engine.get_coordinates(site_obj.name)
+                map_data = pd.DataFrame({'lat':[lat],'lon': [lon]})
+                st.map(map_data)
+
+            except Exception as e:
+                st.error("Unfortunately we couldn't find the place.")
+    
 st.divider()
 
 st.title('THE HEARTBEATS OF BHUTAN')
@@ -99,7 +128,7 @@ if selected_name != "-- Select a Person -- ":
 
     if st.button(f"Learn more about {person_obj['name']}"):
         with st.spinner("Fetching data from Wikipedia..."):
-            wiki_summary = engine.fetch_wikipedia_summary(person_obj['name'])
+            wiki_summary = engine.fetch_wikipedia_summary(person_obj['wiki_search_term'])
             st.markdown(f"""
                     <style>
                     .display {{ background-color: #001F3F;
