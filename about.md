@@ -1,18 +1,30 @@
-            THE KINGDOM OF BHUTAN 🇧🇹
+  ***"A land which has never been conquered in its history."***
 
-High within the jagged, cloud-piercing embrace of the Eastern Himalayas lies Drukyul—the Land of the Thunder Dragon. For centuries, this kingdom remained hidden from the maps of the world, a secluded realm where the veil between the human and the divine is whispered to be thin. It is a place where history is not merely recorded in books, but etched into the very cliffs and carved into the prayers that flutter on the wind.
+---
 
-✧ THE MYTHICAL ORIGIN
-The history of Bhutan is steeped in the echoes of great beings. It is said that the land was blessed by the arrival of Guru Rinpoche, who soared across the mountains on the back of a flying tigress to bring the light of the Dharma to these remote valleys. His presence transformed the rugged peaks into a sanctuary for the spirit, turning high-altitude caves into sites of profound enlightenment and deep, enduring mystery.
+# 🇧🇹 The Kingdom of Bhutan
 
-✧ THE LIVING PULSE OF TRADITION
-In the valleys of Bhutan, time does not move in a straight line; it moves in rhythms of ritual and devotion.
+**Nestled at an average elevation of 10,720 feet above sea level, The Kingdom of Bhutan is a ethereal nation in the heart of the Eastern Himalayas.**
 
-THE GUARDIANS: Beyond the human world, the peaks are held to be the domains of powerful, unseen spirits who demand respect and offer protection to those who traverse their heights with humility.
+Bordering Global Powerhouses, **China** to the North and **India** to the South, Bhutan has taken many a names throughout its sovereign independent history.
 
-THE MASKED DANCES: During festivals, the Cham dances serve as a bridge to the unseen. Through hypnotic movements and sacred masks, performers embody deities and demonic forces alike, reenacting the timeless battles between shadow and light that define the human soul.
 
-✧ A KINGDOM OF CLOUDS
-To experience Bhutan is to step into a realm where the modern world’s frantic pace dissolves into the mist. It is a land of legends where the air itself feels heavy with the scent of burning juniper and the silent, profound weight of centuries of unbroken tradition. From fortified mountain retreats that appear to grow organically from the granite cliffs, to the quiet, glowing lamps inside centuries-old shrines, the Kingdom of Bhutan remains a final, mystical bastion of the ancient world.
+To its people however, we are **Drukyul**: *The Land of the Glorious Thunder Dragon.*
 
-Built to honor the majesty, the myth, and the enduring spirit of the Thunder Dragon.
+---
+
+## The Guru's Advent
+Bhutan was torn by internal warring clans when the great tantric master **Guru Padmasambhava** first arrived in 747 A.D. Through his wisdom and foresight, Guru Rinpoche blessed the then land of Lho Mon Khazhi. **This was the beginning of Bhutan's divine journey which continues to this day.**
+
+## A Nation State
+Ten centuries after the Great Guru's advent, Bhutan saw yet another visionary saint but an equally capable statesman: **Zhabdrung Ngawang Namgyel**. Arriving in Bhutan in 1616 A.D, Zhabdrung Ngawang Namgyel turned a torn state into a united coalition. He established the **Dual State of Government**, beautifully blending the secular politics with religious deivinity into everyone's everyday. 
+
+**The Zhabdrung, gave the world, my beloved Drukyul.**
+
+## The Wangchucks
+Bhutan's greatest chapter thus far, started in 1825, when in the beautiful value of Kurtoe, a man was born. **Deb Jigme Namgyel**, rose to dominance and was the most powerful Penlop of Trongsa and hence the supreme head of the *'Sharchog Khorlo Tshibgye'*. But the most brilliant had much bigger thoughts for Bhutan, which will be fulfilled by his bloodline, the most benevolent **Druk Gyalpo**, the source of all justice and hope.
+
+---
+
+### A Tribute
+**This page is a tribute to the land which has never been conquered in its history, but more importantly to its most brilliant Druk Gyalpo's.**

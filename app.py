@@ -52,13 +52,13 @@ with open('about.md',"r", encoding="utf-8") as f:
     about_content = f.read()
 
 with st.expander(" ABOUT DRUKYUL 🇧🇹"):
-    st.image("img2.jpg", use_container_width=True)
+    st.image("img2.jpeg", use_container_width=True)
     st.markdown(about_content)
 
 st.divider()
 
 st.subheader("THE DRUK GYALPOS")
-st.write("Learn more about the Godly Kings of the Mystic Land!")
+st.write("LEARN MORE ABOUT THE GLORIOUS RULERS OF BHUTAN")
 
 st.markdown("""
     <style>
@@ -70,8 +70,10 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-if st.button("EXPLORE", type="primary"):
+if st.button("CHAPTER 1: THE PATRIACHS", type="primary"):
     st.switch_page("pages/01_Royals.py")
+    
+
    
 st.title("The HEART OF BHUTAN")
 st.write('Explore culturally resonant sites which have braced the test of time.')
