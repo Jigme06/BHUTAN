@@ -9,7 +9,7 @@ def get_base64(bin_file):
         data = f.read()
     return base64.b64encode(data).decode()
 
-bin_str = get_base64("img1.jpg")
+bin_str = get_base64("images/img1.jpg")
 
 st.markdown(
     f"""
@@ -27,7 +27,7 @@ st.title('འབྲུག། : THE KINGDOM OF BHUTAN 🇧🇹')
 
 st.write("Kuzuzangpo La! Welcome to the Digital Interactive Repository of Bhutan")
 
-engine = KnowledgeEngine("data.json")
+engine = KnowledgeEngine("data/data.json")
 engine.load_data()
 
 st.title('AT A GLANCE:')
@@ -48,16 +48,23 @@ with col2:
     else:
         st.error("Could not fetch GDP data.")
 
-with open('about.md',"r", encoding="utf-8") as f:
+with open('data/about.md',"r", encoding="utf-8") as f:
     about_content = f.read()
 
 with st.expander(" ABOUT DRUKYUL 🇧🇹"):
-    st.image("img2.jpeg", use_container_width=True)
+    st.image("images/img2.jpeg", use_container_width=True)
     st.markdown(about_content)
 
 st.divider()
 
 st.subheader("THE DRUK GYALPOS")
+with open('data/crown.md','r') as f:
+    crown_hist = f.read()
+
+with st.expander("THE CROWN"):
+    st.image("images/crown.jpg", use_container_width=False)
+    st.markdown(crown_hist)
+    
 st.write("LEARN MORE ABOUT THE GLORIOUS RULERS OF BHUTAN")
 
 st.markdown("""
@@ -70,11 +77,10 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-if st.button("CHAPTER 1: THE PATRIACHS", type="primary"):
+if st.button("THE ROYALTY: BHUTAN'S GODLY KINGS", type="primary"):
     st.switch_page("pages/01_Royals.py")
-    
 
-   
+    
 st.title("The HEART OF BHUTAN")
 st.write('Explore culturally resonant sites which have braced the test of time.')
 site_names = [site.name for site in engine.sites]
@@ -116,7 +122,7 @@ st.divider()
 st.title('THE HEARTBEATS OF BHUTAN')
 st.write('Explore some of Bhutanese Histories most influential figures.')
 
-with open("p_data.json","r") as f:
+with open("data/p_data.json","r") as f:
     personalities_data = json.load(f)
 
 names = [person['name'] for person in personalities_data]
