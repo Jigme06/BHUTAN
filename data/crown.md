@@ -1,26 +1,17 @@
-# 👑 The Legend of the Raven Crown
+# The Legend of the Raven Crown
 
-Long before it rested on the heads of Kings, the Raven was a beacon of war and divine strategy. In the 19th century, during a time of bitter internal conflict across the mountain passes of Bhutan, the legendary leader **Jigme Namgyal** faced powerful rivals. Beside him stood his spiritual master, **Lama Jangchub Tsundru**.
+“The Raven” has always been sacred and divine.
 
-Rather than standard steel, Lama Jangchub Tsundru envisioned a protective helmet infused with sacred energy. At its summit, he crafted the striking head of a **Raven**.
+**Gonpo Jarodongchen** is the supreme wrathful Dharma protector and guardian deity of Bhutan. Considered a manifestation of Pel Mahakala, he appears in the divine form of a raven, which is also the National Bird of Bhutan.
 
----
+Earliest texts depict him as the primary protector lineage deity, with masters of that era viewing him as a *yidam* (personal guardian deity) for intense practice and protection against harmful forces.
 
-### 🛡️ From Battle Helmet to Sacred Crown
+His earliest association with Bhutan is accounted for in a tale where the founder of the nation, **Zhabdrung Ngawang Namgyel**, faced a dilemma at Ralung Monastery, the seat of the Drukpa Lineage at the time.
 
-The Raven was not chosen merely as a bird of prey, but as the physical vessel of **Jaro Dongchen**—the raven-headed form of *Mahakala* (the supreme guardian deity of Bhutan). 
+Due to political unrest among the Drukpa rulers of Tibet, the Zhabdrung was unsure if leaving was the right decision. Legend has it that Gonpo Jarodongchen appeared in the Zhabdrung's dream in the form of a raven and flew southward—coinciding with the direction of Bhutan. Understanding this divine sign, the Zhabdrung set his mind on travelling to Bhutan, marking the foundation of the Land of the Thunder Dragon.
 
-> According to sacred tradition, Mahakala had vowed to protect the realm and guide its rightful rulers.
+Ever since, the raven has played a pivotal role in the nation's history. Today, it stands as a symbol of peace, prosperity, and unity, etched onto the Crown of the Bhutanese monarchs.
 
-When Jigme Namgyal wore the helmet into the decisive *Battle of Changlimithang*, the warriors saw the raven as a sign that the guardian spirits fought on their side. Under its watchful eye, unity was forged from chaos.
+The forefather of the Wangchuck Dynasty, **Desi Jigme Namgyel**, held a deeply personal connection with the raven. Realising Jigme Namgyel faced immense threats to his life and rule, his spiritual master, Lama Jangchub Tshundrue, invoked the deity Gonpo Jarodongchen and commissioned a special battle helmet featuring the sculpted head of a raven.
 
----
-
-### 🇧🇹 Symbol of the Druk Gyalpo
-
-Decades later, in 1907, as Jigme Namgyal's son, **Ugyen Wangchuck**, was enthroned as the first *Druk Gyalpo* (Dragon King) of a unified Bhutan, the battle helmet was transformed into the ultimate symbol of peace and sovereignty: **The Raven Crown**.
-
-Today, the Raven head atop the silk crown carries two profound meanings:
-
-* **Spiritual Protection:** It reminds the nation that the King is continuously guided and guarded by Mahakala.
-* **A Royal Promise:** It signifies that the monarch’s power must be used to defend the dharma and maintain peace for the Bhutanese people.
+Decades later, when Desi Jigme Namgyel’s son, **Gongsar Ugyen Wangchuck**, was crowned as the Glorious Druk Gyalpo of Bhutan, his crown featured the raven—signifying divine protection and blessing. This gave birth to the *Uzha Jarodongchen* (Raven Crown), which serves as the Royal emblem and a symbol of continuity to this day.
