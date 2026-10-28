@@ -1,6 +1,12 @@
 import streamlit as st
+import base64
 from engine import KnowledgeEngine
-from engine import get_base64
+
+
+def get_base64(file_path):
+    with open(file_path, "rb") as f:
+        data = f.read()
+    return base64.b64encode(data).decode("utf-8")
 
 
 st.caption ("We are actively working on it")
