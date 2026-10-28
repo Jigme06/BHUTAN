@@ -1,7 +1,7 @@
 import streamlit as st
 import base64
 from engine import KnowledgeEngine
-import plotly as px
+
 import pandas as pd
 
 
@@ -47,6 +47,4 @@ with st.expander("What is GMC?"):
 
 with st.expander("The Journey"):
     st.write("I'm currently figuring out the mechanics might be awhile.")
-    
-    px.line(x =[0,10],y =[5,5])
-    #try
+ 
