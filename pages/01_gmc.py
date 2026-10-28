@@ -1,6 +1,6 @@
 import streamlit as st
 from engine import KnowledgeEngine
-from engine import get_base64
+
 
 st.caption ("We are actively working on it")
 
