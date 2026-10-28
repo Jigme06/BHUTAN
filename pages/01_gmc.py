@@ -1,8 +1,9 @@
 import streamlit as st
 import base64
 from engine import KnowledgeEngine
-
+import streamlit_mermaid as stmd
 import pandas as pd
+import json
 
 
 def get_base64(file_path):
@@ -45,6 +46,25 @@ st.markdown(f"""
 with st.expander("What is GMC?"):
     st.write("Under Active Development! Check Back Later.")
 
+with open("gmchistory.json","r") as f:
+    events = json.load(f)
+
 with st.expander("The Journey"):
     st.write("I'm currently figuring out the mechanics might be awhile.")
+
+    mermaid_code = "timeline\n    title History of Gelephu Mindfulness City\n"
+    years_dict = {}
+    for item in events:
+        year = item["date"].strip().split()[-1]
+        event_title = item["event"]
+
+        if year not in years_dict:
+            years_dict[year] = []
+        years_dict[year].append(event_title)
+
+    for yr, titles in years_dict.items():
+        titles_str = " : ".join(titles)
+        mermaid_code += f"    {yr} : {titles_str}\n"
+
+    stmd.st_mermaid(mermaid_code)
  
