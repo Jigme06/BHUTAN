@@ -46,7 +46,7 @@ st.markdown(f"""
 with st.expander("What is GMC?"):
     st.write("Under Active Development! Check Back Later.")
 
-with open("gmchistory.json","r") as f:
+with open("data/gmchistory.json","r") as f:
     events = json.load(f)
 
 with st.expander("The Journey"):
