@@ -80,6 +80,14 @@ st.markdown("""
 if st.button("THE ROYALTY: BHUTAN'S GODLY KINGS", type="primary"):
     st.switch_page("pages/01_Royals.py")
 
+st.divider()
+
+st.header("GELEPHU MINDFULLNESS CITY")
+st.write("Bhutan's most ambitious leap, her King has envisioned a bright future for her! Be a part of this journey")
+if st.button("Learn More", type= "primary"):
+    st.switch_page("pages/01_gmc.py")
+
+
     
 st.title("The HEART OF BHUTAN")
 st.write('Explore culturally resonant sites which have braced the test of time.')
