@@ -7,6 +7,11 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+def get_base64(file):
+    with open(file,'rb') as f:
+        data = f.read()
+    return base64.b64encode(data).decode()
+
 class KnowledgeEngine:
     def __init__(self,file_path : str):
         self.file = file_path

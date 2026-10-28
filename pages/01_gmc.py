@@ -11,11 +11,11 @@ def get_base64(file_path):
 
 st.caption ("We are actively working on it")
 
-st.header("GELEPHU MINDFULLNESS CITY")
+st.header("GELEPHU MINDFULNESS CITY")
 st.image("images/gmclogo.png")
 with st.container():
    st.write("""
-> *"Because of this, I will never tire, never lose hope, and never hesitate. I am confident in our nation, its people, and our collective ability to succeed."*
+> *"I will never tire, never lose hope, and never hesitate. I am confident in our nation, its people, and our collective ability to succeed."*
 > 
 > **His Majesty King Jigme Khesar Namgyel Wangchuck**
 """)
@@ -41,6 +41,6 @@ st.markdown(f"""
 
 
 with st.expander("The Birth of GMC"):
-    st.write("Under Active Development check back later.")
+    st.write("Under Active Development! Check Back Later.")
 
 
