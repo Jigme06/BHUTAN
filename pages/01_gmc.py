@@ -1,6 +1,8 @@
 import streamlit as st
 import base64
 from engine import KnowledgeEngine
+import plotly as px
+import pandas as pd
 
 
 def get_base64(file_path):
@@ -40,7 +42,10 @@ st.markdown(f"""
 """, unsafe_allow_html=True)
 
 
-with st.expander("The Birth of GMC"):
+with st.expander("What is GMC?"):
     st.write("Under Active Development! Check Back Later.")
 
-
+with st.expander("The Journey"):
+    st.write("I'm currently figuring out the mechanics might be awhile.")
+    
+    px.line(x =[0,10],y =[5,5])
