@@ -12,7 +12,7 @@ def get_base64(file_path):
     return base64.b64encode(data).decode("utf-8")
 
 
-bg = get_base64("images/gmcbg")
+bg = get_base64("images/gmcbg.jpeg")
 
 st.markdown(f"""
 <style>
