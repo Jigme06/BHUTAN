@@ -12,6 +12,22 @@ def get_base64(file_path):
     return base64.b64encode(data).decode("utf-8")
 
 
+bg = get_base64("images/gmcbg")
+
+st.markdown(f"""
+<style>
+.stapp{{
+    background-image: linear-gradient(rgba(0.0,0,0.4),rgba(0,0,0,0.4)),url('data:image/jpeg;base64,{bg}');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    }}
+    </style>
+"""
+
+)
+
+
 st.caption ("We are actively working on it")
 
 st.header("GELEPHU MINDFULNESS CITY")
