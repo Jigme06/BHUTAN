@@ -49,3 +49,4 @@ with st.expander("The Journey"):
     st.write("I'm currently figuring out the mechanics might be awhile.")
     
     px.line(x =[0,10],y =[5,5])
+    #try
